@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: space-between;
+}
+
+.form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form textarea, .form input {
+    width: 50%
+}
